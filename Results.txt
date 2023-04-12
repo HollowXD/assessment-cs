@@ -1,0 +1,25 @@
+Results for the tinyArray
+insert 32.4 μs
+append 78.5 μs
+
+Results for the smallArray
+insert 44.4 μs
+append 109.9 μs
+
+Results for the mediumArray
+insert 149.1 μs
+append 103.4 μs
+
+Results for the largeArray
+insert 6.5578 ms
+append 674.7 μs
+
+Results for the extraLargeArray
+insert 643.3123 ms
+append 2.5218 ms
+
+Each of the arrays slowly take longer for the insert and append to go through. They are all
+lightning fast but theres a slight change in each of them and how fast the code can run these
+functions. I see that the append funciton runs much faster than the insert function, purely on
+seeing the result of all 5, where the insert was going longer and longer, and append is roughly
+staying tight between all 5.
